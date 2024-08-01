@@ -86,7 +86,7 @@
   </header>
   
   <main>
-    <p class="message">Feliz Día de la Novia mi amorcito bello. Te amo 3 MILLONES ❤️, te deje aquí unas fotitos, estas fotos muestran momentos especiales los cuales han sido maravillosos a tu lado. TE AMO ❤️</p>
+    <p class="message">Feliz Día de la Novia mi amorcito bello. Te amo 3 MILLONES ❤️, te dejé aquí unas fotitos, estas fotos muestran momentos especiales los cuales han sido maravillosos a tu lado. TE AMO ❤️</p>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -152,20 +152,37 @@
     </div>
 
     <section class="messages">
-    
-      <p class="message">Mi amor, no tengo palabras para describir lo mucho que has cambiado mi vida desde que llegas, ha sido una experiencia hermosa compartir mi vida contigo, eres mi rayito de sol porque iluminas mis dias mas nublados y haces que mi vida sea mas colorida, amo sentirme especial cuando estoy a tu lado, amo cada detalle de ti y me encantas. No solamente eres mi novia, eres mi consejera, mi mejor amiga, mi cielito, mi tesoro, mi mujer, mi esposa, mi niña, mi consentida, mi vida, mi mundo, mi todo, eres lo que complementa todo mi mundo, eres mi complemento y te amo, gracias por traerme tanta alegría y permitirme ser esa primera persona que te demostrara el amor real, te amo y no cambiará nada de estos 431 dias. TE AMO MUCHÍSIMO, DE GIANDE, ALTO Y DE PIOFUNDO ❤️.</p>
-     
-      <!-- Agrega más mensajes aquí -->
+      <p class="message">Mi amor, no tengo palabras para describir lo mucho que has cambiado mi vida desde que llegaste, ha sido una experiencia hermosa compartir mi vida contigo, eres mi rayito de sol porque iluminas mis días más nublados y haces que mi vida sea más colorida, amo sentirme especial cuando estoy a tu lado, amo cada detalle de ti y me encantas. No solamente eres mi novia, eres mi consejera, mi mejor amiga, mi cielito, mi tesoro, mi mujer, mi esposa, mi niña, mi consentida, mi vida, mi mundo, mi todo, eres lo que complementa todo mi mundo, eres mi complemento y te amo, gracias por traerme tanta alegría y permitirme ser esa primera persona que te demostrara el amor real, te amo y no cambiará nada de estos 431 días. TE AMO MUCHÍSIMO, DE GRANDE, ALTO Y DE PROFUNDO ❤️.</p>
     </section>
 
     <div class="text-center mt-4">
-      <a href="video.mp4" class="btn btn-custom" target="_blank">Ver Video Especial</a>
+      <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#videoModal">Ver Video Especial</button>
     </div>
   </main>
 
   <footer>
     <p>Espero que te guste, lo hice con todo mi amor ❤️</p>
   </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="videoModalLabel">Te amo ❤️, espero que aprecies todos los detalles y que te gusten</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video controls style="width: 100%;">
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
